@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - "1.12"
+
+branches:
+  only:
+  - dev
+  - master
+  - /^\d{2}\.\d\.\d+(-\d+)?$/
