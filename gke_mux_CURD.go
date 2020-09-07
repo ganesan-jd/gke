@@ -14,7 +14,7 @@ import (
 )
 
 var Zone = "us-central1-c"
-var JsonPath = "/Users/ganesan.duraisamy/Desktop/Study/Go-Learn/gcpsdk/credentials.json"
+var JsonPath = "/etc/gke/credentials.json"
 var ProjectID = "kubernetes-283301"
 
 func gke_create(w http.ResponseWriter, r *http.Request) {
