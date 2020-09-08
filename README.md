@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/sanativesystems/gke.svg?branch=master)](https://travis-ci.org/sanativesystems/gke)
 
-[![Sonar Build Status](https://sonarcloud.io/api/project_badges/measure?project=sanativesystems_gke&metric=alert_status)](https://sonarcloud.io/dashboard?id=sanativesystems_gke)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=sanativesystems_gke)](https://sonarcloud.io/dashboard?id=sanativesystems_gke)
 
 
 # gke
