@@ -65,12 +65,12 @@ func gke_create(w http.ResponseWriter, r *http.Request) {
 	}
 
 	resp, err := containerService.Projects.Zones.Clusters.Create(global_config.App.ProjectID, global_config.App.Zone, &art).Context(ctx).Do()
+
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	json.NewEncoder(w).Encode(resp)
-
 }
 
 func gke_list(w http.ResponseWriter, r *http.Request) {

@@ -8,3 +8,7 @@ branches:
   - dev
   - master
   - /^\d{2}\.\d\.\d+(-\d+)?$/
+
+script:
+  - make build    
+  - make clean
