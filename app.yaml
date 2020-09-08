@@ -1,0 +1,7 @@
+server:
+  port: 8000
+
+app:
+  zone: us-central1-c
+  projectid: default 
+  credentialspath: /etc/gke/credentials.json 
